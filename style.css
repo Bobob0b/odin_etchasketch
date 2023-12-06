@@ -13,3 +13,7 @@
     height: 40px;
     background-color: beige;
 }
+
+.fields:hover {
+    background-color: black;
+}
