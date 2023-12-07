@@ -46,11 +46,11 @@ function resize(size) {
 function setBGColor(element) {
 
     // normal mode
-    //element.style.backgroundColor = `rgb(${red},${green},${blue})`;
+    //element.style.backgroundColor = `black`;
 
     // rgb mode
     let red = Math.round(Math.random() * 255);
     let blue = Math.round(Math.random() * 255);
     let green = Math.round(Math.random() * 255);
-
+    element.style.backgroundColor = `rgb(${red},${green},${blue})`;
 };
