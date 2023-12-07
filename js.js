@@ -36,6 +36,9 @@ function resize(size) {
         newChild.setAttribute("class", "fields field" + i);
         newChild.style.width = widthOfDivs + "px";
         newChild.style.height = widthOfDivs + "px";
+        newChild.addEventListener("mouseover", (e) => {
+            newChild.style.backgroundColor = "black";
+        })
         container.appendChild(newChild);
     }
 };

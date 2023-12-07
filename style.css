@@ -10,9 +10,6 @@
     background-color: beige;
 }
 
-.fields:hover {
-    background-color: black;
-}
 
 body {
     display: flex;
