@@ -37,8 +37,20 @@ function resize(size) {
         newChild.style.width = widthOfDivs + "px";
         newChild.style.height = widthOfDivs + "px";
         newChild.addEventListener("mouseover", (e) => {
-            newChild.style.backgroundColor = "black";
+            setBGColor(newChild);
         })
         container.appendChild(newChild);
     }
+};
+
+function setBGColor(element) {
+
+    // normal mode
+    //element.style.backgroundColor = `rgb(${red},${green},${blue})`;
+
+    // rgb mode
+    let red = Math.round(Math.random() * 255);
+    let blue = Math.round(Math.random() * 255);
+    let green = Math.round(Math.random() * 255);
+
 };
